@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 40rem;
+    justify-content: center;
+    
+    
+}
+body
+{
+ 
+ font-family: 'Montserrat', sans-serif;
+ align-self: center;
+ text-align: center;
+
+}
+
+.name
+{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin: 3rem auto;
+    border: 3px solid black; 
+    text-align: center;
+    margin-bottom: 30px;
+    
+   
+}
+.nameWrapper
+{
+   
+
+    border-bottom: 3px solid  #038cfc ;
+}
+.age
+{
+    border: 3px solid #038cfc; 
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #038cfc;
+    color: aliceblue;
+    margin-left: 25px;
+}
+.image
+{
+    border: 3px black; 
+   height: 300px;
+   width: 300px;
+   margin-left: 25px;
+   
+    
+}
+.text
+{
+   width: 300px;
+   height: 100px;
+   margin-left: 25px;
+   font-size: medium;
+
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html  lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plamedie Bitota's App</title>
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+    <div id="app"> 
+
+        <div class="nameWrapper" >
+
+            <section class="name">
+
+            <h1>
+              Plamedie Bitota Bukasa
+            </h1>
+            </section>
+
+        </div>
+
+        <div class="contentWrapper" id="content">
+
+            <section class="age"> 
+
+                <p>{{age}}</p>
+ 
+            </section>
+
+            <section class="age"> 
+
+               <p>{{ageInFive}}</p>
+
+             </section>
+
+        <section class="age"> 
+            <p>{{ randomisedNumber}}</p>
+
+         </section>
+
+
+         <section class="imageWrapper">
+
+
+            <img class= "image" v-bind:src="img" >
+
+         </section>
+
+
+         <section >
+             <input class="text" v-model="textName"/>
+
+
+
+         </section>
+
+        </div>
+    </div>
+</body>
+
+
+
+</html>
